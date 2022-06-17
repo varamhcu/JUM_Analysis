@@ -15,7 +15,7 @@ STAR --runThreadN 8 \
 
 STAR --runThreadN 8 \
 --runMode genomeGenerate \
---genomeDir STAR_index_10.27 \ # to run genome indices generation job
---genomeFastaFiles reference_files/TAIR10.27/TAIR10.27.dna.toplevel.fa \ #the path to genome reference file
---sjdbGTFfile reference_files/TAIR10.27/TAIR10.27.gtf \ #the path to annotation file
---sjdbOverhang 96 # the length of the genomic sequence around the annotated junction to be used in constructing the splice junctions database. Ideally, this length should be equal to the lenght of the read-1.
+--genomeDir STAR_index_10.27 \ 
+--genomeFastaFiles reference_files/TAIR10.27/TAIR10.27.dna.toplevel.fa \
+--sjdbGTFfile reference_files/TAIR10.27/TAIR10.27.gtf \ 
+--sjdbOverhang 96
