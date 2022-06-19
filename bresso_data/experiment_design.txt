@@ -1,0 +1,7 @@
+  condition
+col0_1	control
+col0_2	control
+col0_3	control
+tcp23410_1	mutant
+tcp23410_2 mutant
+tcp23410_3 mutant

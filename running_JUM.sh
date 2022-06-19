@@ -17,13 +17,11 @@ bash ../JUM_2.0.2/JUM_B.sh --Folder ../JUM_2.0.2 --Test pvalue --Cutoff 0.05 --T
 
 bash ../JUM_2.0.2/JUM_B.sh --Folder ../JUM_2.0.2 --Test adjusted_pvalue --Cutoff 0.05 --TotalFileNum 6 --Condition1_fileNum_threshold 2 --Condition2_fileNum_threshold 2 --Condition1SampleName col_1,col_2,col_3 --Condition2SampleName dex_1,dex_2,dex_3
 
+#it will also create a new folder
 
 cd FINAL_JUM_OUTPUT_pvalue_0.05
 
 
 bash ../JUM_2.0.2/JUM_C.sh --Folder ../JUM_2.0.2 --Test pvalue --Cutoff 0.05 --TotalCondition1FileNum 3 --TotalCondition2FileNum 3 --REF TAIR10.1_genePred_bygff.txt
-
-
-
 
 #############
