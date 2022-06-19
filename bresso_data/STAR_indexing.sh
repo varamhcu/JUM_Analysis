@@ -16,6 +16,7 @@ STAR --runThreadN 8 \
 # the above alue is the length of the genomic sequence around the annotated junction to be used in constructing the splice junctions database. Ideally, this length should be equal to the lenght of the read-1.
 
 #As genePred file formation was failed with TAIR10.1 ; A new indexing with TAIR10.27 (?)
+
 mkdir STAR_index_10.27
 
 STAR --runThreadN 8 \

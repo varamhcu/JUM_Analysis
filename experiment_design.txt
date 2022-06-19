@@ -1,0 +1,7 @@
+  condition
+col_1	control
+col_2	control
+col_3	control
+dex_1	mutant
+dex_2 mutant
+dex_3 mutant
