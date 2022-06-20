@@ -3,6 +3,8 @@
 
 bash ../JUM_2.0.2/JUM_A.sh --Folder ../JUM_2.0.2 --JuncThreshold 3 --Condition1_fileNum_threshold 2 --Condition2_fileNum_threshold 2 --IRthreshold 3 --Readlength 140 --Thread 2 --Condition1SampleName col_1,col_2,col_3 --Condition2SampleName dex_1,dex_2,dex_3
 
+#bash /media/uvr1/UVR1-1/Aaryan_UTNlab_project/JUM_2.0.2_short_user_argument/JUM_A.sh /media/uvr1/UVR1-1/Aaryan_UTNlab_project/JUM_2.0.2_short_user_argument 3 2 2 3 150 3 col_1,col_2,col_3 dex_1,dex_2,dex_3
+
 echo "DONE"
 
 cd JUM_diff
